@@ -42,13 +42,13 @@ The system is optimized for recognizing UK-style license plates.
    ```
 
 6. **Interpolate missing data**:
-   To interpolate values for missing frames, run:
+   To interpolate values for missing frames, generates `test_interpolated.csv` file, run:
    ```bash
    python add_missing_data.py
    ```
 
 7. **Visualize results**:
-   Finally, to create a smooth video output with the interpolated data, run:
+   Finally, to create a smooth video with the interpolated data, run to generate `out.mp4` video:
    ```bash
    python visualize.py
    ```
