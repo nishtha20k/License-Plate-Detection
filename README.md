@@ -1,3 +1,5 @@
+## Project Overview
+
 This project implements an Automatic Number Plate Recognition (ANPR) system using Python, YOLOv8 for object detection, SORT for object tracking, and EasyOCR for optical character recognition (OCR). The system is capable of detecting, tracking, and recognizing license plates from video footage, and outputs results in a CSV file format.
 
 ## Features
